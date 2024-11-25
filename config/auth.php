@@ -40,13 +40,10 @@ return [
             'driver' => 'session',
             'provider' => 'users',
         ],
-<<<<<<< HEAD
         'masyarakat' => [
             'driver' => 'session',
             'provider' => 'masyarakats',
         ]
-=======
->>>>>>> dd969e3fd41f68ba60cf3b6117347b1b26e58ea7
     ],
 
     /*
@@ -72,14 +69,11 @@ return [
             'model' => env('AUTH_MODEL', App\Models\User::class),
         ],
 
-<<<<<<< HEAD
         'masyarakats' => [
             'driver' => 'eloquent',
             'model' =>  App\Models\Masyarakat::class,
         ]
 
-=======
->>>>>>> dd969e3fd41f68ba60cf3b6117347b1b26e58ea7
         // 'users' => [
         //     'driver' => 'database',
         //     'table' => 'users',
